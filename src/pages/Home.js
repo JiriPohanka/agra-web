@@ -1,7 +1,7 @@
 import Hero from "../components/hero/Hero"
 import FbFeedSection from "../components/FbFeedSection"
 import ImageStrip from "../components/ImageStrip"
-import FacebookGrid from "../components/facebookGrid/FacebbokGrid";
+import FacebookGrid from "../components/facebookGrid/FacebookGrid";
 
 const Home = () => {
     return (
