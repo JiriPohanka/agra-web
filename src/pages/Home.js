@@ -1,6 +1,7 @@
 import Hero from "../components/hero/Hero"
 import FbFeedSection from "../components/FbFeedSection"
 import ImageStrip from "../components/ImageStrip"
+import FacebookGrid from "../components/facebookGrid/FacebbokGrid";
 
 const Home = () => {
     return (
@@ -10,6 +11,8 @@ const Home = () => {
             <ImageStrip bgr={"bg-img-strip1"} />
             <div className="h-screen" />
             <ImageStrip bgr={"bg-img-strip2"} />
+
+            <FacebookGrid />
         </div>
     )
 }
