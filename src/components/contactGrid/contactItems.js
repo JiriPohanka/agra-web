@@ -1,5 +1,8 @@
+import { v4 as uuidv4 } from 'uuid'
+
 const contactItems = [
     {
+        id: uuidv4(),
         titleBefore: "Ing. ",
         titleAfter: "",
         firstName: "Jan",
@@ -10,6 +13,7 @@ const contactItems = [
         phone2: ""
     },
     {
+        id: uuidv4(),
         titleBefore: "",
         titleAfter: "",
         firstName: "Hana",
@@ -20,6 +24,7 @@ const contactItems = [
         phone2: "312 589 211"
     },
     {
+        id: uuidv4(),
         titleBefore: "Ing. ",
         titleAfter: "",
         firstName: "Zdeněk",
@@ -30,6 +35,7 @@ const contactItems = [
         phone2: ""
     },
     {
+        id: uuidv4(),
         titleBefore: "Ing. ",
         titleAfter: " Ph.D.",
         firstName: "Vítěslav",
@@ -40,6 +46,7 @@ const contactItems = [
         phone2: ""
     },
     {
+        id: uuidv4(),
         titleBefore: "",
         titleAfter: "",
         firstName: "Radek",
@@ -50,6 +57,7 @@ const contactItems = [
         phone2: ""
     },
     {
+        id: uuidv4(),
         titleBefore: "Ing. ",
         titleAfter: "",
         firstName: "Jaroslav",
@@ -60,6 +68,7 @@ const contactItems = [
         phone2: ""
     },
     {
+        id: uuidv4(),
         titleBefore: "",
         titleAfter: "",
         firstName: "Pavel",
@@ -70,6 +79,7 @@ const contactItems = [
         phone2: ""
     },
     {
+        id: uuidv4(),
         titleBefore: "",
         titleAfter: "",
         firstName: "Petr",
@@ -80,6 +90,7 @@ const contactItems = [
         phone2: ""
     },
     {
+        id: uuidv4(),
         titleBefore: "Ing. ",
         titleAfter: "",
         firstName: "Jiří",
@@ -90,6 +101,7 @@ const contactItems = [
         phone2: ""
     },
     {
+        id: uuidv4(),
         titleBefore: "",
         titleAfter: "",
         firstName: "Martina",
@@ -100,6 +112,7 @@ const contactItems = [
         phone2: "312 589 206"
     },
     {
+        id: uuidv4(),
         titleBefore: "",
         titleAfter: "",
         firstName: "Petra",
@@ -110,6 +123,7 @@ const contactItems = [
         phone2: "312 589 206"
     },
     {
+        id: uuidv4(),
         titleBefore: "",
         titleAfter: "",
         firstName: "Tereza",
@@ -120,6 +134,7 @@ const contactItems = [
         phone2: "312 589 253"
     },
     {
+        id: uuidv4(),
         titleBefore: "",
         titleAfter: "",
         firstName: "Šárka",

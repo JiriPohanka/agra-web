@@ -21,24 +21,24 @@ function Hero() {
     }
 
     return (
-        <div className='h-screen'>
+        <div className='hero h-96'>
 
-            <button onClick={previous} disabled={index === 0}>
+            <button className="absolute" onClick={previous} disabled={index === 0}>
                 〈
             </button>
-            <button onClick={next} disabled={index === images.length - 1}>
+            <button className="absolute" onClick={next} disabled={index === images.length - 1}>
                 〉
             </button>
             <Slider
                 onSlideComplete={setFinishedIndex}
                 onSlideStart={(i) => {
-                    console.clear()
-                    console.log('started dragging on slide', i)
+                    // console.clear()
+                    // console.log('started dragging on slide', i)
                 }}
                 activeIndex={index}
                 threshHold={100}
                 transition={0.5}
-                scaleOnDrag={true}
+                scaleOnDrag={false}
             >
                 {images.map(({ url, title }, index) => (
                     <img src={url} key={index} alt={title} />

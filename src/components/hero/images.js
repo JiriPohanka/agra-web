@@ -1,20 +1,15 @@
+import sliderImg1 from "../../images/img-strip-1.jpeg"
+import sliderImg2 from "../../images/img-strip-2.jpeg"
+
 const images = [
     {
         title: "slider-img-1",
-        url: "https://www.agra-risuty.cz/uploads/photos/_MG_1990_1.jpg"
+        url: sliderImg1
     },
     {
         title: "slider-img-2",
-        url: "https://www.agra-risuty.cz/uploads/photos/_MG_1990_1.jpg"
-    },
-    {
-        title: "slider-img-3",
-        url: "https://www.agra-risuty.cz/uploads/photos/_MG_1990_1.jpg"
-    },
-    {
-        title: "slider-img-4",
-        url: "https://www.agra-risuty.cz/uploads/photos/_MG_1990_1.jpg"
-    },
+        url: sliderImg2
+    }
 ]
 
 export default images
