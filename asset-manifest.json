@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/agra-web/static/css/main.38a6e02b.css",
+    "main.js": "/agra-web/static/js/main.b1bfa8f8.js",
+    "static/media/img-strip-1.jpeg": "/agra-web/static/media/img-strip-1.0d8b7741c6c442cf5a37.jpeg",
+    "static/media/bees-hero.jpeg": "/agra-web/static/media/bees-hero.d5a4fb6ce34e8ca0b503.jpeg",
+    "static/media/img-strip-2.jpeg": "/agra-web/static/media/img-strip-2.2219f92d48c6564c9d00.jpeg",
+    "static/media/logo.png": "/agra-web/static/media/logo.9c6b4e156b017347ca3b.png",
+    "index.html": "/agra-web/index.html",
+    "main.38a6e02b.css.map": "/agra-web/static/css/main.38a6e02b.css.map",
+    "main.b1bfa8f8.js.map": "/agra-web/static/js/main.b1bfa8f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38a6e02b.css",
+    "static/js/main.b1bfa8f8.js"
+  ]
+}
